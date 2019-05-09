@@ -1,4 +1,4 @@
-package com.ysj.tinySpring.beans;
+package com.ysj.tinyspring.beans;
 
 /**
  * 用于在bean定义初始化时嵌入相关操作

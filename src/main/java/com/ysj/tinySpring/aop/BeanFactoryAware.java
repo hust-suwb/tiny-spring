@@ -1,6 +1,6 @@
-package com.ysj.tinySpring.aop;
+package com.ysj.tinyspring.aop;
 
-import com.ysj.tinySpring.beans.factory.BeanFactory;
+import com.ysj.tinyspring.beans.factory.BeanFactory;
 
 /**
  * 实现该接口则有操作beanFactory的能力

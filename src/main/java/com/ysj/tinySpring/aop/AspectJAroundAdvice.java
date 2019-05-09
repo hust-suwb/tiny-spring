@@ -1,4 +1,4 @@
-package com.ysj.tinySpring.aop;
+package com.ysj.tinyspring.aop;
 
 import java.lang.reflect.Method;
 
@@ -6,7 +6,7 @@ import org.aopalliance.aop.Advice;
 import org.aopalliance.intercept.MethodInterceptor;
 import org.aopalliance.intercept.MethodInvocation;
 
-import com.ysj.tinySpring.beans.factory.BeanFactory;
+import com.ysj.tinyspring.beans.factory.BeanFactory;
 
 /**
  * 环绕通知

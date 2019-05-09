@@ -1,4 +1,4 @@
-package com.ysj.tinySpring.beans.io;
+package com.ysj.tinyspring.beans.io;
 
 import java.net.URL;
 

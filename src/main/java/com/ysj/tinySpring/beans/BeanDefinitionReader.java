@@ -1,4 +1,4 @@
-package com.ysj.tinySpring.beans;
+package com.ysj.tinyspring.beans;
 
 /**
  * 解析 BeanDefinition 的接口

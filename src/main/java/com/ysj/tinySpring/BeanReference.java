@@ -1,4 +1,4 @@
-package com.ysj.tinySpring;
+package com.ysj.tinyspring;
 
 /**
  * 用于代表property标签的ref属性里的对象

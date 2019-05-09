@@ -1,6 +1,6 @@
-package com.ysj.tinySpring.context;
+package com.ysj.tinyspring.context;
 
-import com.ysj.tinySpring.beans.factory.BeanFactory;
+import com.ysj.tinyspring.beans.factory.BeanFactory;
 
 /**
  * 以 ApplicationContext 接口为核心发散出的几个类，主要是对前面 Resouce 、 BeanFactory、BeanDefinition 

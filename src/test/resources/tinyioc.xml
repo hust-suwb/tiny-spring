@@ -8,25 +8,25 @@
 	http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-2.5.xsd
 	http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-2.5.xsd">
 
-    <bean id="outputService" class="com.ysj.OutputServiceImpl">
+    <bean id="outputService" class="com.ysj.tinyspring.OutputServiceImpl">
     </bean>
 
-    <bean id="helloWorldService" class="com.ysj.HelloWorldServiceImpl">
+    <bean id="helloWorldService" class="com.ysj.tinyspring.HelloWorldServiceImpl">
         <property name="text" value="Hello World!"></property>
         <property name="outputService" ref="outputService"></property>
     </bean>
 
-    <bean id="autoProxyCreator" class="com.ysj.tinySpring.aop.AspectJAwareAdvisorAutoProxyCreator"></bean>
+    <bean id="autoProxyCreator" class="com.ysj.tinyspring.aop.AspectJAwareAdvisorAutoProxyCreator"></bean>
 
-    <bean id="timeInterceptor" class="com.ysj.aop.TimerInterceptor"></bean>
+    <bean id="timeInterceptor" class="com.ysj.tinyspring.aop.TimerInterceptor"></bean>
 
     <!-- 配置AOP -->
-    <bean id="aspectjAspect" class="com.ysj.tinySpring.aop.AspectJExpressionPointcutAdvisor">
+    <bean id="aspectjAspect" class="com.ysj.tinyspring.aop.AspectJExpressionPointcutAdvisor">
         <!-- 配置切面 -->
         <property name="advice" ref="timeInterceptor"></property>
         <!-- 配置切点 -->
         <!-- 通过AspectJ表达式可以知道拦截哪个类的哪个方法或哪些方法 -->
-        <property name="expression" value="execution(* com.ysj.tinySpring.*.*(..))"></property>
+        <property name="expression" value="execution(* com.ysj.tinyspring.*.*(..))"></property>
     </bean>
 
 </beans>

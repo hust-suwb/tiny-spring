@@ -1,14 +1,14 @@
-package com.ysj;
+package com.ysj.tinyspring;
 
 import java.util.Map;
 
 import org.junit.Test;
 
-import com.ysj.tinySpring.beans.BeanDefinition;
-import com.ysj.tinySpring.beans.factory.AbstractBeanFactory;
-import com.ysj.tinySpring.beans.factory.AutowireCapableBeanFactory;
-import com.ysj.tinySpring.beans.io.ResourceLoader;
-import com.ysj.tinySpring.beans.xml.XmlBeanDefinitionReader;
+import com.ysj.tinyspring.beans.BeanDefinition;
+import com.ysj.tinyspring.beans.factory.AbstractBeanFactory;
+import com.ysj.tinyspring.beans.factory.AutowireCapableBeanFactory;
+import com.ysj.tinyspring.beans.io.ResourceLoader;
+import com.ysj.tinyspring.beans.xml.XmlBeanDefinitionReader;
 
 /**
  * @author yihua.huang@dianping.com

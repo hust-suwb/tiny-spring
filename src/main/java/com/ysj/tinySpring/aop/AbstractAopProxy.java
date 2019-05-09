@@ -1,4 +1,4 @@
-package com.ysj.tinySpring.aop;
+package com.ysj.tinyspring.aop;
 
 /**
  * 继承了AopProxy接口，有获取代理对象的能力

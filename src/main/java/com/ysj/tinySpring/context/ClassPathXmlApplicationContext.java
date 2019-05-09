@@ -1,12 +1,12 @@
-package com.ysj.tinySpring.context;
+package com.ysj.tinyspring.context;
 
 import java.util.Map;
 
-import com.ysj.tinySpring.beans.BeanDefinition;
-import com.ysj.tinySpring.beans.factory.AbstractBeanFactory;
-import com.ysj.tinySpring.beans.factory.AutowireCapableBeanFactory;
-import com.ysj.tinySpring.beans.io.ResourceLoader;
-import com.ysj.tinySpring.beans.xml.XmlBeanDefinitionReader;
+import com.ysj.tinyspring.beans.BeanDefinition;
+import com.ysj.tinyspring.beans.factory.AbstractBeanFactory;
+import com.ysj.tinyspring.beans.factory.AutowireCapableBeanFactory;
+import com.ysj.tinyspring.beans.io.ResourceLoader;
+import com.ysj.tinyspring.beans.xml.XmlBeanDefinitionReader;
 
 /**
  * 从类路径加载资源的具体实现类

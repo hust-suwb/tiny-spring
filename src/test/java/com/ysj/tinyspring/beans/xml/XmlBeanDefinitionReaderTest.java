@@ -1,13 +1,13 @@
-package com.ysj.beans.xml;
+package com.ysj.tinyspring.beans.xml;
 
 import java.util.Map;
 
 import org.junit.Assert;
 import org.junit.Test;
 
-import com.ysj.tinySpring.beans.BeanDefinition;
-import com.ysj.tinySpring.beans.io.ResourceLoader;
-import com.ysj.tinySpring.beans.xml.XmlBeanDefinitionReader;
+import com.ysj.tinyspring.beans.BeanDefinition;
+import com.ysj.tinyspring.beans.io.ResourceLoader;
+import com.ysj.tinyspring.beans.xml.XmlBeanDefinitionReader;
 
 /**
  * @author yihua.huang@dianping.com

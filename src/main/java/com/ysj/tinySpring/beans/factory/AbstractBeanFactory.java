@@ -1,4 +1,4 @@
-package com.ysj.tinySpring.beans.factory;
+package com.ysj.tinyspring.beans.factory;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -6,8 +6,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
-import com.ysj.tinySpring.beans.BeanDefinition;
-import com.ysj.tinySpring.beans.BeanPostProcessor;
+import com.ysj.tinyspring.beans.BeanDefinition;
+import com.ysj.tinyspring.beans.BeanPostProcessor;
 
 /**
  * BeanFactory 的一种抽象类实现，规范了 IoC 容器的基本结构。

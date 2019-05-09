@@ -1,4 +1,4 @@
-package com.ysj;
+package com.ysj.tinyspring;
 
 /**
  * @author yihua.huang@dianping.com

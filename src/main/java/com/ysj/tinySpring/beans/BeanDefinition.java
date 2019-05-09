@@ -1,4 +1,4 @@
-package com.ysj.tinySpring.beans;
+package com.ysj.tinyspring.beans;
 
 /**
  * Bean在 IoC 容器中的定义， IoC 容器可以根据这个定义来生成实例 的问题

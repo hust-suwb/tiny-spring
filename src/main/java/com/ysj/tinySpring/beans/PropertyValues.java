@@ -1,4 +1,4 @@
-package com.ysj.tinySpring.beans;
+package com.ysj.tinyspring.beans;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,19 +1,19 @@
-package com.ysj.aop;
+package com.ysj.tinyspring.aop;
 
+import com.ysj.tinyspring.HelloWorldService;
+import com.ysj.tinyspring.HelloWorldServiceImpl;
 import org.junit.Test;
 
-import com.ysj.HelloWorldService;
-import com.ysj.HelloWorldServiceImpl;
-import com.ysj.tinySpring.aop.AdvisedSupport;
-import com.ysj.tinySpring.aop.Cglib2AopProxy;
-import com.ysj.tinySpring.aop.TargetSource;
-import com.ysj.tinySpring.context.ApplicationContext;
-import com.ysj.tinySpring.context.ClassPathXmlApplicationContext;
+import com.ysj.tinyspring.aop.AdvisedSupport;
+import com.ysj.tinyspring.aop.JdkDynamicAopProxy;
+import com.ysj.tinyspring.aop.TargetSource;
+import com.ysj.tinyspring.context.ApplicationContext;
+import com.ysj.tinyspring.context.ClassPathXmlApplicationContext;
 
 /**
  * @author yihua.huang@dianping.com
  */
-public class Cglib2AopProxyTest {
+public class JdkDynamicAopProxyTest {
 
 	@Test
 	public void testInterceptor() throws Exception {
@@ -33,10 +33,11 @@ public class Cglib2AopProxyTest {
 		TimerInterceptor timerInterceptor = new TimerInterceptor();
 		advisedSupport.setMethodInterceptor(timerInterceptor);
 
-		// 补：没有设置MethodMatcher，所以拦截该类的所有方法
+		// 补：由于用户未设置MethodMatcher，所以通过代理还是调用的原方法(JdkDynamicAopProxy中的invoke方法最后
+		// 返回method.invoke(...)而不是methodInterceptor.invoke(...) )
 		// 3. 创建代理(Proxy)
-		Cglib2AopProxy cglib2AopProxy = new Cglib2AopProxy(advisedSupport);
-		HelloWorldService helloWorldServiceProxy = (HelloWorldService) cglib2AopProxy.getProxy();
+		JdkDynamicAopProxy jdkDynamicAopProxy = new JdkDynamicAopProxy(advisedSupport);
+		HelloWorldService helloWorldServiceProxy = (HelloWorldService) jdkDynamicAopProxy.getProxy();
 
 		// 4. 基于AOP的调用
 		helloWorldServiceProxy.helloWorld();

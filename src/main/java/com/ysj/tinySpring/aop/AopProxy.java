@@ -1,4 +1,4 @@
-package com.ysj.tinySpring.aop;
+package com.ysj.tinyspring.aop;
 
 /**
  * AopProxy是个标志型接口

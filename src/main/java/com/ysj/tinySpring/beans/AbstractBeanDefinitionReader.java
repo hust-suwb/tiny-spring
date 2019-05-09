@@ -1,9 +1,9 @@
-package com.ysj.tinySpring.beans;
+package com.ysj.tinyspring.beans;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import com.ysj.tinySpring.beans.io.ResourceLoader;
+import com.ysj.tinyspring.beans.io.ResourceLoader;
 
 /**
  * 实现 BeanDefinitionReader 接口的抽象类（未具体实现 loadBeanDefinitions，而是规范了

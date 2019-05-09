@@ -1,12 +1,12 @@
-package com.ysj.tinySpring.aop;
+package com.ysj.tinyspring.aop;
 
 import java.util.List;
 
 import org.aopalliance.intercept.MethodInterceptor;
 
-import com.ysj.tinySpring.beans.BeanPostProcessor;
-import com.ysj.tinySpring.beans.factory.AbstractBeanFactory;
-import com.ysj.tinySpring.beans.factory.BeanFactory;
+import com.ysj.tinyspring.beans.BeanPostProcessor;
+import com.ysj.tinyspring.beans.factory.AbstractBeanFactory;
+import com.ysj.tinyspring.beans.factory.BeanFactory;
 
 /**
  * 实现了BeanFactoryAware接口：这个接口提供了对 BeanFactory 的感知，这样，尽管它是容器中的一个 Bean，却

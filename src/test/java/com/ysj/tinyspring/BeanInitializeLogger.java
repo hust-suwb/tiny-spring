@@ -1,6 +1,6 @@
-package com.ysj;
+package com.ysj.tinyspring;
 
-import com.ysj.tinySpring.beans.BeanPostProcessor;
+import com.ysj.tinyspring.beans.BeanPostProcessor;
 
 /**
  * 实例化bean后，初始化时会调用该方法

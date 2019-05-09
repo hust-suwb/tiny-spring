@@ -1,4 +1,4 @@
-package com.ysj.tinySpring.aop;
+package com.ysj.tinyspring.aop;
 
 /**
  * 封装被代理的对象的类的相关信息

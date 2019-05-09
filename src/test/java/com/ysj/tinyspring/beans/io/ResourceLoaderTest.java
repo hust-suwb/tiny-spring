@@ -1,4 +1,4 @@
-package com.ysj.beans.io;
+package com.ysj.tinyspring.beans.io;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -6,8 +6,8 @@ import java.io.InputStream;
 import org.junit.Assert;
 import org.junit.Test;
 
-import com.ysj.tinySpring.beans.io.Resource;
-import com.ysj.tinySpring.beans.io.ResourceLoader;
+import com.ysj.tinyspring.beans.io.Resource;
+import com.ysj.tinyspring.beans.io.ResourceLoader;
 
 /**
  * @author yihua.huang@dianping.com

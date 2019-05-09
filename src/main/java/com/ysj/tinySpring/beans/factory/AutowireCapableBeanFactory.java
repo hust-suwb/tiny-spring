@@ -1,12 +1,12 @@
-package com.ysj.tinySpring.beans.factory;
+package com.ysj.tinyspring.beans.factory;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 
-import com.ysj.tinySpring.BeanReference;
-import com.ysj.tinySpring.aop.BeanFactoryAware;
-import com.ysj.tinySpring.beans.BeanDefinition;
-import com.ysj.tinySpring.beans.PropertyValue;
+import com.ysj.tinyspring.BeanReference;
+import com.ysj.tinyspring.aop.BeanFactoryAware;
+import com.ysj.tinyspring.beans.BeanDefinition;
+import com.ysj.tinyspring.beans.PropertyValue;
 
 /**
  * 可实现自动装配的BeanFactory

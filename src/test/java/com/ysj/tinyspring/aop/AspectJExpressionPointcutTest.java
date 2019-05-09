@@ -1,11 +1,11 @@
-package com.ysj.aop;
+package com.ysj.tinyspring.aop;
 
+import com.ysj.tinyspring.HelloWorldServiceImpl;
 import org.junit.Assert;
 import org.junit.Test;
 
-import com.ysj.HelloWorldService;
-import com.ysj.HelloWorldServiceImpl;
-import com.ysj.tinySpring.aop.AspectJExpressionPointcut;
+import com.ysj.tinyspring.HelloWorldService;
+import com.ysj.tinyspring.aop.AspectJExpressionPointcut;
 
 /**
  * @author yihua.huang@dianping.com

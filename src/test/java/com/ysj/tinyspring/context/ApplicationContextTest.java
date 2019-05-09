@@ -1,10 +1,10 @@
-package com.ysj.context;
+package com.ysj.tinyspring.context;
 
 import org.junit.Test;
 
-import com.ysj.HelloWorldService;
-import com.ysj.tinySpring.context.ApplicationContext;
-import com.ysj.tinySpring.context.ClassPathXmlApplicationContext;
+import com.ysj.tinyspring.HelloWorldService;
+import com.ysj.tinyspring.context.ApplicationContext;
+import com.ysj.tinyspring.context.ClassPathXmlApplicationContext;
 
 /**
  * @author yihua.huang@dianping.com

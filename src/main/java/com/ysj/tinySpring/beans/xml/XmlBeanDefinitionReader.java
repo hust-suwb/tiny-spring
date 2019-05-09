@@ -1,4 +1,4 @@
-package com.ysj.tinySpring.beans.xml;
+package com.ysj.tinyspring.beans.xml;
 
 import java.io.InputStream;
 
@@ -10,11 +10,11 @@ import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
-import com.ysj.tinySpring.BeanReference;
-import com.ysj.tinySpring.beans.AbstractBeanDefinitionReader;
-import com.ysj.tinySpring.beans.BeanDefinition;
-import com.ysj.tinySpring.beans.PropertyValue;
-import com.ysj.tinySpring.beans.io.ResourceLoader;
+import com.ysj.tinyspring.BeanReference;
+import com.ysj.tinyspring.beans.AbstractBeanDefinitionReader;
+import com.ysj.tinyspring.beans.BeanDefinition;
+import com.ysj.tinyspring.beans.PropertyValue;
+import com.ysj.tinyspring.beans.io.ResourceLoader;
 
 /**
  * 从 XML 文件中读取bean的定义。具体实现了 loadBeanDefinitions() 方法

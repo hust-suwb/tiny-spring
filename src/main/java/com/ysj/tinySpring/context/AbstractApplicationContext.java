@@ -1,9 +1,9 @@
-package com.ysj.tinySpring.context;
+package com.ysj.tinyspring.context;
 
 import java.util.List;
 
-import com.ysj.tinySpring.beans.BeanPostProcessor;
-import com.ysj.tinySpring.beans.factory.AbstractBeanFactory;
+import com.ysj.tinyspring.beans.BeanPostProcessor;
+import com.ysj.tinyspring.beans.factory.AbstractBeanFactory;
 
 /**
  * ApplicationContext 的抽象实现

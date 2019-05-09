@@ -1,4 +1,4 @@
-package com.ysj.tinySpring.beans.factory;
+package com.ysj.tinyspring.beans.factory;
 
 /**
  * 标识一个 IoC 容器。
