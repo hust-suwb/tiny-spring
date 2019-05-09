@@ -1,10 +1,8 @@
 package com.ysj.context;
 
-import org.junit.Assert;
 import org.junit.Test;
 
 import com.ysj.HelloWorldService;
-import com.ysj.OutputService;
 import com.ysj.tinySpring.context.ApplicationContext;
 import com.ysj.tinySpring.context.ClassPathXmlApplicationContext;
 
