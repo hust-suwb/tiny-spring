@@ -5,5 +5,5 @@ package com.ysj.tinyspring;
  */
 public interface HelloWorldService {
 
-	void helloWorld();
+    void helloWorld();
 }
