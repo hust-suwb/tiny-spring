@@ -12,7 +12,7 @@ public class AspectJExpressionPointcutTest {
 
     @Test
     public void testClassFilter() throws Exception {
-        String expression = "execution(* us.codecraft.tinyioc.*.*(..))";
+        String expression = "execution(* com.ysj.*.*(..))";
         AspectJExpressionPointcut aspectJExpressionPointcut = new AspectJExpressionPointcut();
         aspectJExpressionPointcut.setExpression(expression);
         boolean matches = aspectJExpressionPointcut.getClassFilter().matches(HelloWorldService.class);
@@ -24,8 +24,7 @@ public class AspectJExpressionPointcutTest {
         String expression = "execution(* com.ysj.*.*(..))";
         AspectJExpressionPointcut aspectJExpressionPointcut = new AspectJExpressionPointcut();
         aspectJExpressionPointcut.setExpression(expression);
-        boolean matches = aspectJExpressionPointcut.getMethodMatcher()
-                .matches(HelloWorldServiceImpl.class.getDeclaredMethod("helloWorld"), HelloWorldServiceImpl.class);
+        boolean matches = aspectJExpressionPointcut.getMethodMatcher().matches(HelloWorldServiceImpl.class.getDeclaredMethod("helloWorld"), HelloWorldServiceImpl.class);
         Assert.assertTrue(matches);
     }
 }
